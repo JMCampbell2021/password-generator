@@ -4,7 +4,7 @@ var generatePassword = function () {
   window.alert("Please answer each question")
   var passwordCriteria = window.prompt ("Choose the length of your password? (Enter a number between 8 to 128)");
 
-  var passwordNumber = window.confirm ("Would you like numbers in you password?");
+  var passwordNumber = window.confirm ("Would you like numbers in your password?");
   var randomNumber = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
   var passwordUpper= window.confirm ("Would you like uppercase letters in your password?");
@@ -13,7 +13,7 @@ var generatePassword = function () {
   var passwordLower = window.confirm ("Would you like lowercase letters in your password?");
   var randomLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o",  "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-  var passwordSpecial = window.confirm ("Would you like special characters in you password?");
+  var passwordSpecial = window.confirm ("Would you like special characters in your password?");
   var randomSpecial = ["@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+"];
 
   var randomResult = [];
