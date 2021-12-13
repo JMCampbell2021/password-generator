@@ -2,7 +2,7 @@
 
 var generatePassword = function () {
   window.alert("Please answer each question")
-  var passwordCriteria = window.prompt ("Choose the length of your password? (8 to 128 characters)");
+  var passwordCriteria = window.prompt ("Choose the length of your password? (Enter a number between 8 to 128)");
 
   var passwordNumber = window.confirm ("Would you like numbers in you password?");
   var randomNumber = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
